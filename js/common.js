@@ -141,14 +141,13 @@ $(function () {
 
 
 
-    $(".buy-btn ").on("click", function (event) {
+    $(".buy-btn-click ").on("click", function (event) {
         //
-        // event.preventDefault();
-        // var id = $(this).attr('href'),
-        //     top = $(id).offset().top;
-        // var window_width = $(window).width();
-        //     $('body,html').animate({scrollTop: top - 69}, 1500);
-        //
+        event.preventDefault();
+        var id = $(this).attr('href'),
+            top = $(id).offset().top;
+            $('body,html').animate({scrollTop: top - 69}, 1500);
+
 
 
 
